@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "name": "cutebear",
+            "avatar": "cutebear.png",
+            "description": "一個爛爛的python開發者"
+        },
+        {
+            "name": "YYj",
+            "avatar": "yyj.png",
+            "description": "嗨！我是YYJ，樣樣都會樣樣不精，從計算機概論到網路概論在到物件導向程式語言開發都有所接觸，目前於中陽科技有限公司工作，主要是經營伺服器託管、客製化程式訂製、大學資訊教育課後輔導老師。"
+        },
+        {
+            "name": "ChinGH",
+            "avatar": "cgh.png",
+            "description": "我是 ChinGH，你也可以稱呼我為 GH 喜歡 js py golang html css java 目前正在用 NodeJs 寫 DC 機器人 是一位中學生"
+        },
+        {
+            "name": "Ryan Chan",
+            "avatar": "ryan.gif",
+            "description": "Hello 我是 Ryan ，目前在學習各種程式語言，電腦科學，也在用NodeJS寫Discord Bot，ReactJS寫Discord Bot Dashboard。有興趣也可以一起來交流一下(>^ω^<）"
+        },
+        {
+            "name": "Dennis",
+            "avatar": "dennis.png",
+            "description": "我是Dennis 一個普通的高中生 喜歡寫程式 討厭108課綱"
+        },
+        {
+            "name": "code a duck",
+            "avatar": "duck.png",
+            "description": "我是一位来自马来西亚的乌干达鸭子 我其实没有什么爱好就玩玩DC然后就在家废玩玩diep.io要陪我玩也是可以:) 然后乱写网站的模板然后免费的(过后可能会做网站然后放魔法在那边:) 然后现在是上网课所以你在DC很容易看到我上线 PLAY OSU!!!"
+        },
+        {
+            "name": "Hello Phone",
+            "avatar": "hello.png",
+            "description": "一個設計網站總能弄出一坨東西的人(QQ)"
+        },
+        {
+            "name": "Cringe",
+            "avatar": "cringe.png",
+            "description": "一個設計網站總能弄出一坨東西的人(QQ)"
+        },
+        {
+            "name": "Mantou1233",
+            "avatar": "mantou.png",
+            "description": "哈嘍！我叫饅頭，一個java和typescript開發者，現在正在開發Discord機器人。"
+        },
+        {
+            "name": "``",
+            "avatar": "``.png",
+            "description": "我是點點，一個正在就學的Python開發者uwu"
+        },
+        {
+            "name": "morb",
+            "avatar": "tick.png",
+            "description": "i have no idea..."
+        },
+        {
+            "name": "Windøws11Prø",
+            "avatar": "win11pro.webp",
+            "description": "Hello,我是Windows11Pro，喜欢python,cpp，同时也是一名硬件发烧友，目前在用python开发dc机器人以及一些小程序，是一名中学生"
+        },
+        {
+            "name": "Zollo757347",
+            "avatar": "zollo.png"
+        },
+        {
+            "name": "愛潛水的> 00 <",
+            "avatar": "00.png"
+        },
+        {
+            "name": "Windowsed",
+            "avatar": "ws.png"
+        }
+    ]
+}

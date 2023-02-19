@@ -1,0 +1,60 @@
+{
+    "posts": [
+        {
+            "title": "AI人工智慧 #2｜神經網路(Neural Network)與激活函數(Activation Function)",
+            "descripton": "神經網路的三層結構以及激活函數(Sigmoid, ReLU, Leaky ReLU)是什麼？",
+            "date": "05/02/2023",
+            "author": "YYJ",
+            "link": "https://article.yyjstudio.com/article/2"
+        },
+        {
+            "title": "AI人工智慧 #1｜人工智慧、機器學習、深度學習是什麼？",
+            "descripton": "人工智慧(Artificial Intelligence)、機器學習(Machine Learning)、深度學習(Deep Learning)是什麼？它們有什麼關聯？",
+            "date": "05/02/2023",
+            "author": "YYJ",
+            "link": "https://article.yyjstudio.com/article/1"
+        },
+        {
+            "title": "有點久沒寫Django，來寫個最簡單的註冊系統吧",
+            "descripton": "1. 新建register.html, login.html, profile.html...",
+            "date": "20/01/2023",
+            "author": "YYJ",
+            "link": "blogs/有點久沒寫Django,來寫個最簡單的註冊系統吧"
+        },
+        {
+            "title": "Django如何使用Gunicorn在Nginx部署",
+            "descripton": "本文章教學Django專案如何部署到Nginx，以及一些常見的盲點。本文章適用於會Django專案建置並打算部署至Nginx的人閱讀。",
+            "date": "30/09/2022",
+            "author": "YYJ",
+            "link": "https://gray-freckle-d85.notion.site/Nginx-Gunicorn-Django-c8d5639b7ec0443d9944a65c820bcc10"
+        },
+        {
+            "title": "記憶體如何運作",
+            "descripton": "原生記憶體有幾種不同的分配方式，Text 、Static、Global、Stack、Heap",
+            "date": "04/08/2022",
+            "author": "MiniApple",
+            "link": "https://insidious-shield-847.notion.site/3fd00095815348898df06941cd617577"
+        },
+        {
+            "title": "前端與後端 23/6",
+            "descripton": "前端",
+            "date": "03/08/2022",
+            "author": "MiniApple",
+            "link": "https://insidious-shield-847.notion.site/935ec8f8612a4e6ba723bea4647e2f02"
+        },
+        {
+            "title": "OSI之延伸文章 - L2與L3的交換器(Switch)差異",
+            "descripton": "你知道交換器(Switch)有分L2和L3兩種類型的嗎？",
+            "date": "16/06/2022",
+            "author": "YYJ",
+            "link": "blogs/difference_between_l2_and_l3_switch"
+        },
+        {
+            "title": "你知道什麼是OSI 7層嗎？",
+            "descripton": "OSI全名為Open System Interconnection，翻譯成中文為開放式系統互聯模型。它使不同的通信系統能夠使用標準協議進行通信。",
+            "date": "14/06/2022",
+            "author": "YYJ",
+            "link": "blogs/what_is_osi_7"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+code{
+    background-color: #252426;
+    display: block;
+   /* width: calc(100%);*/
+    padding: auto;
+    margin: auto;
+}
+
+.about_hr{
+    border-top: 1px solid #0d6efd;
+    border-bottom: 1px solid #0d6efd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

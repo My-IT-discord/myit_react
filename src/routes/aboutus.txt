@@ -1,0 +1,229 @@
+ <div className='cards'>
+        <Card className='left' sx={{ maxWidth: 345, bgcolor: blueGrey[900] }}>
+      <CardHeader
+        avatar={
+          <Avatar src={`img/cutebear.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="cutebear"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        一個爛爛的python開發者
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/yyj.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="YYJ"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        嗨！我是YYJ，樣樣都會樣樣不精，從計算機概論到網路概論在到物件導向程式語言開發都有所接觸，目前於中陽科技有限公司工作，主要是經營伺服器託管、客製化程式訂製、大學資訊教育課後輔導老師。
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/cgh.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="ChinGH"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        我是 ChinGH，你也可以稱呼我為 GH 喜歡 js py golang html css java 目前正在用 NodeJs 寫 DC 機器人 是一位中學生
+         </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/ryan.gif`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Ryan Chan"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        Hello 我是 Ryan ，目前在學習各種程式語言，電腦科學，也在用NodeJS寫Discord Bot，ReactJS寫Discord Bot Dashboard。有興趣也可以一起來交流一下 ^ω^
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/dennis.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Dennis"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        我是Dennis 一個普通的高中生 喜歡寫程式 討厭108課綱
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/duck.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Code a Duck"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        我是一位来自马来西亚的乌干达鸭子 我其实没有什么爱好就玩玩DC然后就在家废玩玩diep.io要陪我玩也是可以:) 然后乱写网站的模板然后免费的(过后可能会做网站然后放魔法在那边:) 然后现在是上网课所以你在DC很容易看到我上线 PLAY OSU!!!
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/hello.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Hello Phone"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        一個設計網站總能弄出一坨東西的人(QQ)
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/crign.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Cringe"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        一個Minecraft外掛客戶端開發者，最喜歡吃烤鴨子
+        </Typography>
+      </CardContent>
+    </Card>
+
+   
+    
+    </div>
+<Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/mantou.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Mantou1233"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        哈嘍！我叫饅頭，一個java和typescript開發者，現在正在開發Discord機器人。
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/``.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="``"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        我是點點，一個正在就學的Python開發者uwu
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/morb.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="morb"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        i have no idea...
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/win11.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Windøws11Prø"
+      />
+      <CardContent>
+        <Typography variant="body2" color="white">
+        Windøws11Prø
+Hello,我是Windows11Pro，喜欢python,cpp，同时也是一名硬件发烧友，目前在用python开发dc机器人以及一些小程序，是一名中学生
+        </Typography>
+      </CardContent>
+    </Card>
+
+    <Card className='middle' sx={{ maxWidth: 345, bgcolor:blueGrey[900]}}>
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/win11.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Windøws11Prø"
+      />
+      <CardHeader 
+        avatar={
+          <Avatar src={`img/win11.png`}
+          width={100}
+          roundedCircle aria-label="recipe">
+          </Avatar>
+        }
+        title="Windøws11Prø"
+      />
+    </Card>

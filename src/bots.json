@@ -1,0 +1,34 @@
+{
+    "bots": [
+        {
+            "name": "Empressival",
+            "description": "Empressival機器人為一個由WindowsedCS團隊所製作的一隻Discord機器人。其功能為讓玩家們在《特戰英豪》遊戲不開啟的情形之下，執行「商店」、「通行證」、「收藏」、「對戰紀錄」等內容之查詢",
+            "avatar": "embot.png",
+            "link": "https://discord.com/oauth2/authorize?client_id=942082423846486056&permissions=2147861569&scope=bot%20applications.commands%20applications.commands.permissions.update"
+        },
+        {
+            "name": "CGH🌿",
+            "description": "A Multi Functions Discord Bot",
+            "avatar": "cghbot.png",
+            "link": "https://discord.com/oauth2/authorize?client_id=837564399833055272&permissions=278941465683&scope=bot%20applications.commands"
+        },
+        {
+            "name": "Junior HiZollo",
+            "description": "Junior HiZollo 是個功能完整的 Discord 機器人，可以為你管理身份組、增加伺服器樂趣等",
+            "avatar": "hizollobot.png",
+            "link": "https://discord.com/oauth2/authorize?client_id=584677291318312963&permissions=1636382010871&scope=bot+applications.commands"
+        },
+        {
+            "name": "Suggestion Bot",
+            "description": "Suggestion Bot，是一個讓用戶提議以及投票的機器人",
+            "avatar": "subot.png",
+            "link": "https://github.com/Ryan0204/Suggestion-Bot"
+        },
+        {
+            "name": "Ticket Bot",
+            "description": "Ticket Bot，是一個用戶可以通過按鈕創建客服單的機器人。 該機器人有控制面板，用戶可以在那裡設置客服單系統。",
+            "avatar": "rb.png",
+            "link": "https://discord.com/oauth2/authorize?client_id=955466249482150018&permissions=518080949329&scope=bot%20applications.commands"
+        }
+    ]
+}

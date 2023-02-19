@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="https://media.discordapp.net/attachments/924845584521789513/936584105292877824/myItMyimg-modified.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="myit的網站" />
+    <title>{My-IT}程式討論區</title>
+  </head>
+  <!--<body
+    style="background: radial-gradient(circle, #24246e, #06051f); color: white; background-attachment: fixed; scroll-behavior: smooth;"
+  >-->
+  <body
+  style="background: #11111d;  background-attachment: fixed; scroll-behavior: smooth;"
+>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="scrolling.js"></script>
+      <script>
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".black").css("background" , "blue");
+	  }
+
+	  else{
+		  $(".black").css("background" , "#333");  	
+	  }
+  })
+})
+      </script>
+      <script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+                window.location.hash = hash;
+              });
+            } 
+          });
+        });
+        </script>
+        <canvas class="background"></canvas>
+        <script src="particles.min.js"></script>
+  </body>
+</html>
