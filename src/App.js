@@ -6,6 +6,7 @@ import Blogs from "./routes/Blogs";
 import Nav from "./components/Nav";
 import What_is_osi_7 from "./components/posts/what_is_osi7";
 import Difference_between_l2_and_l3_switch from "./components/posts/difference_between_l2_and_l3_switch";
+import Diango_registration_system from "./components/posts/diango_registration_system";
 import "./App.css";
 import "./style.css";
 //import Modes from "./components/modes";
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="aboutus/" element={<Aboutus />} />
           <Route path="blogs/what_is_osi_7" element={<What_is_osi_7 />} />
           <Route path="blogs/difference_between_l2_and_l3_switch" element={<Difference_between_l2_and_l3_switch />} />
+          <Route path="blogs/diango_registration_system" element={<Diango_registration_system />} />
         </Routes>
       </Router>
    </div>

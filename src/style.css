@@ -1,14 +1,20 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); /*Noto Sans 思源黑體*/
+
 body{
     height: 100vh;
 }
 h1,h2,h4,h5,h6{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
     color: #f4f4f4;
 }
 p,a,span,li,label{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	/*font-family: 'Helvetica', 'Arial', 'Noto Sans TC', '黑體-繁','微軟正黑體', sans-serif !important;*/
 	/*color: #f4f4f4;*/
+	font-family: 'Noto Sans TC',sans-serif !important;
 	color: #fff;
+}
+p{
+	font-size: 19px;
 }
 .blog_link{
 	color: #fff;
@@ -237,6 +243,7 @@ h3{
     margin:0 auto;
     padding:0px;
     font-family:helvetica;
+	background-attachment: fixed;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) , url(https://cdn.discordapp.com/attachments/1076740619663310888/1076740668304662609/banner1-min.jpg) no-repeat center center fixed; 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -249,6 +256,7 @@ h3{
 	margin: -90px 0 0 0;
 }
 #intro .jumbotron{
+	background-attachment: fixed;
 	background: url();
 	background-size: cover;
     background-repeat: no-repeat;
@@ -273,14 +281,17 @@ h3{
 	margin-top: 20px;
 }
 #btn{
-    background-color: #2d24db;
+    /*background-color: #8fceff;*/
     padding: 7px 28px;
-    border-radius: 20px;
-    margin-left: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
 }
 #btn:hover{
 	opacity:0.8;
-	background-color: blueviolet;
+	background-color: #8fceff;
+}
+.btn_text{
+	color: #444;
 }
 /*end intro&banner*/
 
@@ -374,6 +385,9 @@ p.lead{
 
   /*mobile*/
   @media only screen and (max-width: 768px) {
+	.ta{
+		font-size: 30px !important;
+	}
 	#second h5 {
 	    margin-bottom: 50px;
 	}
@@ -382,25 +396,28 @@ p.lead{
 	}
 	footer h4 {
 	    font-size: 17px;
-	    margin-top: 30px;
-	    margin-bottom: 18px;
+	    /*margin-top: auto;
+	    margin-bottom: 18px;*/
+		padding-right: 30px;
+		margin-right: 50px !important;
 	}
 	.ta{
 		font-weight: 800;
 		font-size: 50%;
 	}
 	#btn{
-		background-color: #2d24db;
+		/*background-color: #2d24db;*/
 		padding: 7px 28px;
-		border-radius: 20px;
-		margin-left: 10px;
+		border-radius: 30px;
+		margin-left: 5px;
 	}
 	#intro .jumbotron{
-		background: url();
+		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) , url(https://cdn.discordapp.com/attachments/1076740619663310888/1076740668304662609/banner1-min.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 30%;
-		height: 70vh;
+		background-position: 80%;
+		background-attachment: fixed;
+		height: 100vh;
 		margin-bottom: 0px;
 	}
 	.banner_part{
@@ -408,11 +425,8 @@ p.lead{
 		margin:0 auto;
 		padding:0px;
 		font-family:helvetica;
-		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) , url(https://cdn.discordapp.com/attachments/1076740619663310888/1076740668304662609/banner1-min.jpg) no-repeat center center fixed; 
-		-webkit-background-size: 100%;
-		-moz-background-size: 100%;
-		-o-background-size: 100%;
 		background-size: 1000px;
+		background-attachment: fixed;
 	    width: 100%;
 	    height: 10%;
 	}

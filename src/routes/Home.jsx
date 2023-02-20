@@ -36,8 +36,8 @@ const Home = () => {
       <p className="intro-text" >
         果然是我熟悉的myit 還是那麼的不營養
         </p>
-                  <a class="btn btn-primary btn-lg" id="btn" href="https://discord.gg/U3DW4cNkMd" role="button" target={'_blank'}>加入Discord</a>
-                  <a class="btn btn-primary btn-lg" id="btn" href="https://github.com/My-IT-discord/myit_react" role="button" target={'_blank'}>Github原代碼</a>
+                  <a class="btn btn-primary btn-lg btn_text" id="btn"  href="https://discord.gg/myit" role="button" target={'_blank'}>加入Discord</a>
+                  <a class="btn btn-primary btn-lg btn_text" id="btn" href="https://github.com/My-IT-discord/myit_react" role="button" target={'_blank'}>Github原代碼</a>
               </div>
           </div>
       </div>
@@ -49,8 +49,10 @@ const Home = () => {
         return (
           <a
           className="blog_link"
-          target="_blank"
             href={`${post.link}`}
+            style={{
+              width: "50%"
+            }}
             /*style={{
               width: "90%",
               backgroundColor: "transparent",
@@ -68,8 +70,10 @@ const Home = () => {
                    <h1 className="blog__title blue">
                      <a
                        className="blog_link"
-                       target="_blank"
                        href={`${post.link}`}
+                       style={{
+                        width: "50%"
+                      }}
                      >
                       {post.title}
                      </a>{" "}
@@ -91,7 +95,7 @@ const Home = () => {
           </a>
         );
       })}
-      <br></br><br></br>
+      <br></br><br></br><br></br><br></br>
       <hr className="hr"></hr>
         <footer>
   <div className="container footer">
@@ -115,12 +119,12 @@ const Home = () => {
             <a href="/" target={'_blank'}>主頁</a>
           </li>
           <li>
-            <a href="https://discord.gg/U3DW4cNkMd" target={'_blank'}>加入Discord</a>
+            <a href="https://discord.gg/myit" target={'_blank'}>加入Discord</a>
           </li>
         </ul>
         <ul>
         <li>
-            <a href="/aboutus">關於我們</a>
+            <a href="/aboutus" target={'_blank'}>關於我們</a>
           </li>
           <li>
             <a href="https://github.com/My-IT-discord/myit_react" target={'_blank'}>Github原代碼</a>

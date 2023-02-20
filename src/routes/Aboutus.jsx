@@ -159,7 +159,7 @@ const About = () => {
 
 
 
-        <br></br><br></br>
+        <br></br><br></br><br></br><br></br>
       <hr className="hr"></hr>
         <footer>
   <div className="container footer">

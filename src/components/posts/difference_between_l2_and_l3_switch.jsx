@@ -72,7 +72,7 @@ const Difference_between_l2_and_l3_switch = () => {
   </div>
 </section>
 
-<br></br><br></br>
+<br></br><br></br><br></br><br></br>
       <hr className="hr"></hr>
         <footer>
   <div className="container footer">

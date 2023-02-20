@@ -98,7 +98,7 @@ const What_is_osi_7 = () => {
   </div>
 </section>
 
-<br></br><br></br>
+<br></br><br></br><br></br><br></br>
       <hr className="hr"></hr>
         <footer>
   <div className="container footer">

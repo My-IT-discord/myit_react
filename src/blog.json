@@ -19,7 +19,7 @@
             "descripton": "1. 新建register.html, login.html, profile.html...",
             "date": "20/01/2023",
             "author": "YYJ",
-            "link": "blogs/有點久沒寫Django,來寫個最簡單的註冊系統吧"
+            "link": "blogs/diango_registration_system"
         },
         {
             "title": "Django如何使用Gunicorn在Nginx部署",
