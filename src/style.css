@@ -408,7 +408,6 @@ p.lead{
 		margin:0 auto;
 		padding:0px;
 		font-family:helvetica;
-		background-attachment: fixed;
 		background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) , url(https://cdn.discordapp.com/attachments/1076740619663310888/1076740668304662609/banner1-min.jpg) no-repeat center center fixed; 
 		-webkit-background-size: 100%;
 		-moz-background-size: 100%;
