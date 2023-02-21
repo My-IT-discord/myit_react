@@ -384,7 +384,7 @@ p.lead{
 
 
   /*mobile*/
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
 	.ta{
 		font-size: 30px !important;
 	}
@@ -416,7 +416,6 @@ p.lead{
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 80%;
-		background-attachment: fixed;
 		height: 100vh;
 		margin-bottom: 0px;
 	}
