@@ -36,7 +36,7 @@ const Home = () => {
       <p className="intro-text" >
         果然是我熟悉的myit 還是那麼的不營養
         </p>
-                  <a class="btn btn-primary btn-lg btn_text" id="btn"  href="https://discord.gg/myit" role="button" target={'_blank'}>加入Discord</a>
+                  <a class="btn btn-primary btn-lg btn_text" id="btn"  href="https://discord.gg/U3DW4cNkMd" role="button" target={'_blank'}>加入Discord</a>
                   <a class="btn btn-primary btn-lg btn_text" id="btn" href="https://github.com/My-IT-discord/myit_react" role="button" target={'_blank'}>Github原代碼</a>
               </div>
           </div>
@@ -109,7 +109,7 @@ const Home = () => {
         </p>
         <p>果然是我熟悉的myit 還是那麼的不營養</p>
         <p>
-          © {"{"}My-IT{"}"}程式討論區 2021-2023
+          © {"{"}My-IT{"}"}程式討論區 2021-2024
         </p>
       </div>
       <div className="col-md-4 text-right">
@@ -119,7 +119,7 @@ const Home = () => {
             <a href="/" target={'_blank'}>主頁</a>
           </li>
           <li>
-            <a href="https://discord.gg/myit" target={'_blank'}>加入Discord</a>
+            <a href="https://discord.gg/U3DW4cNkMd" target={'_blank'}>加入Discord</a>
           </li>
         </ul>
         <ul>
