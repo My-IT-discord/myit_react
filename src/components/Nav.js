@@ -150,7 +150,7 @@ function BasicExample() {
     </a>
   </li>
   <li className="nav-item">
-    <a className="nav-link" id="links" href="https://discord.gg/myit">
+    <a className="nav-link" id="links" href="https://discord.gg/U3DW4cNkMd">
       加入Discord
     </a>
   </li>
