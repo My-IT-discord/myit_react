@@ -76,47 +76,7 @@ const About = () => {
         
         </Container>
       </div>
-      <div
-        style={{ width: "100%", padding: "100px" }}
-      >
-        <h2>前管理團隊成員</h2>
-        <p>(排名不分先後)</p>
-        <Container>
-
-       
-
-          {Array.from(ex_members.ex_members).map((ex_member) => {
-            return (
-              <Row>
-                <Col md={4}>
-                  <Image
-                    src={`img/${ex_member.avatar}`}
-                    width={100}
-                    roundedCircle
-                  />
-                   <br></br><br></br>
-                </Col>
-                <Col
-                  md={8}
-                  style={{
-                    textAlign: "center",
-                  }}
-                >
-                  <p>{ex_member.name}</p>
-                  <p>{ex_member.description}</p>
-                  <br></br><br></br>
-                </Col>
-                <br></br><br></br>
-              </Row>
-                
-            );
-           
-          })}
-
-
-        </Container>
-      </div>
-
+      
 
      
 
